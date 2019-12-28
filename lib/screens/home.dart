@@ -36,6 +36,6 @@ class HomeScreen extends StatelessWidget {
 
     String time = (minute < 10) ? "0" + minute.toString() : minute.toString();
 
-    return "It's now " + hour.toString() + ":" + time.toString() + ".\n" + hello;
+    return "It's now " + hour.toString() + ":" + time.toString() + "\n" + hello;
   }
 }
